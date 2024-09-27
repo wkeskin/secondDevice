@@ -1,0 +1,120 @@
+/* 
+File Name: default.css
+Student Name: Wardatul Keskin
+Student ID: 301294696
+Date: 2024-09-26
+*/
+
+/*Home Page*/
+#homeTitle {
+  font-size: 72px;
+  font-weight: 900;
+  margin-bottom: 33px;
+  margin-top: 33px;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: rgb(80, 101, 80);
+}
+
+#homeDescription {
+  font-size: 25px;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  margin-bottom: 33px;
+}
+
+#homeLinks {
+  margin-right: 50px;
+  font-size: 25px;
+  color: green;
+  text-decoration: underline;
+  margin-bottom: 33px;
+}
+/*Page Title*/
+.pageTitle{
+  padding-top: 15px;
+  padding-bottom: 10px;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: bolder;
+  text-decoration: underline overline;;
+  color: rgb(80, 101, 80);
+}
+/*About Page*/
+#aboutHeader{
+  display: block;
+  margin: auto;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color:rgb(80, 101, 80);
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+#aboutButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+#profileImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 70%;
+    width: 100%;
+}
+
+/*Contact Page*/
+#contactForm {
+  padding-left: 40px;
+}
+  
+#contactDetails{
+  text-align: center;
+  padding-top: 33px;
+}
+#contactCol{
+  margin-top: 125px;
+  text-align: center;
+}
+/*Service page*/
+#serviceCol{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
+#serviceIcon{
+  width: 12%;
+  height: auto;
+  padding-bottom: 5px;
+  justify-content: center;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+
+  50% {
+    transform: translate(0, 10px);
+  }
+
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+/*@media screen and (max-width: 830px) {
+  .container {
+    flex-direction: column-reverse;
+  }
+
+  .content {
+    align-items: center;
+  }
+}*/
